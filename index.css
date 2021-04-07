@@ -1,5 +1,118 @@
-body {
-    background-color: white;
-    font-size: 1.6rem;
-    line height: 1.5;
+/*general styles*/
+html{
+    font-size:62.5%;
+}
+
+body{
+    font-size:1.6rem;
+    font-family: 'Roboto Mono', monospace;
+    line-height:1.5;
+}
+
+h1 {
+    font-family: 'Chelsea Market', cursive;
+    font-size:5rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+section {
+    padding:4% 0;
+    width:90%;
+    margin:0 auto;
+}
+
+/*header section styles*/
+nav {
+    padding:2% 0;
+}
+nav a {
+    display:inline-block;
+    padding:1% 0;
+    width:10%;
+    border-radius:10px;
+    text-align:center;
+    color:#fff;
+
+}
+
+.blue{
+    background-color:#5ED3EB;
+    margin:0 24%;
+}
+
+.orange{
+    background-color:#FF764E;
+    margin-left:10%;
+}
+
+.round {
+    border-radius: 50%;
+}
+
+.yellow{
+    background-color:#FFCD69;
+    margin-right:10%;
+    color: 4F4F4F;
+}
+/*title section styles*/
+.left, .right{
+   display:inline-block;
+}
+
+.left{
+    width:30%;
+}
+
+.left img{
+    width: 80%;
+}
+
+.right{
+    width:55%;
+    margin-left:5%;
+    text-align:center;
+    line-height:3;
+}
+
+/*main section styles*/
+.main{
+    background-color:#DDB9A3;
+    color:#fff;
+}
+
+.main p{
+    width:90%;
+    margin:0 auto;
+}
+
+/*info section styles*/
+.info div{
+    width:30%;
+    margin:0 auto;
+    text-align:center;
+}
+
+.info div.first{
+    margin-bottom:5%;
+}
+
+.info img {
+    width: 30%;
+}
+
+/*hero image styles*/
+.footer-image{
+    background-image:url("assets/footer_img.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center top;
+    height:50vh;
+    width:100%;
+}
+
+footer{
+    background-color:#F9E7DC;
 }
